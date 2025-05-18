@@ -1,0 +1,20 @@
+meta {
+  name: update-item
+  type: http
+  seq: 5
+}
+
+put {
+  url: http://localhost:5000/api/inventory/items/67da7f1e3566b747d75a6886
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "name": "test sucssesful",
+    "quantity": 199,
+    "price": 99.99,
+    "category": "Updated Category"
+  }
+}

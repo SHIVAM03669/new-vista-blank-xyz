@@ -1,0 +1,22 @@
+meta {
+  name: posting
+  type: http
+  seq: 3
+}
+
+post {
+  url: http://localhost:5000/api/inventory/items
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "name": "xyz",
+    "quantity": 5,
+    "price": 29.99,
+    "category": "Test Category"
+  }
+  
+  
+}
