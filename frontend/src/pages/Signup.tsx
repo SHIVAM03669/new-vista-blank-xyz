@@ -10,34 +10,57 @@ const Signup: React.FC = () => {
     name: '',
     email: '',
     password: '',
-    confirmPassword: '',
-    companyName: ''
+    passwordConfirm: '',
+    companyName: '',
+    role: 'Staff'
   });
   const [isLoading, setIsLoading] = useState(false);
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    if (formData.password !== formData.confirmPassword) {
+    
+    console.log('Form data before validation:', formData);
+    
+    if (formData.password !== formData.passwordConfirm) {
       toast.error('Passwords do not match');
       return;
     }
+
     setIsLoading(true);
 
     try {
-      await signup(formData);
+      const signupData = {
+        name: formData.name,
+        email: formData.email,
+        password: formData.password,
+        passwordConfirm: formData.passwordConfirm,
+        companyName: formData.companyName,
+        role: formData.role
+      };
+
+      console.log('Sending signup data:', signupData);
+      
+      await signup(signupData);
       toast.success('Account created successfully!');
       navigate('/dashboard');
-    } catch (error) {
-      toast.error('Failed to create account');
+    } catch (error: any) {
+      console.error('Signup error:', error);
+      toast.error(error.response?.data?.message || error.message || 'Failed to create account');
     } finally {
       setIsLoading(false);
     }
   };
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    setFormData({
-      ...formData,
-      [e.target.name]: e.target.value
+    const { name, value } = e.target;
+    console.log('Form field changed:', { name, value });
+    setFormData(prev => {
+      const newData = {
+        ...prev,
+        [name]: value
+      };
+      console.log('New form data:', newData);
+      return newData;
     });
   };
 
@@ -45,9 +68,7 @@ const Signup: React.FC = () => {
     navigate('/');
   };
 
-  // Add this after component mounts
   useEffect(() => {
-    // Create a floating back button
     const backButton = document.createElement('button');
     backButton.innerHTML = '<strong style="font-size: 24px;">←</strong> <span>Back</span>';
     backButton.onclick = goToLanding;
@@ -69,7 +90,6 @@ const Signup: React.FC = () => {
     
     document.body.appendChild(backButton);
     
-    // Clean up on unmount
     return () => {
       document.body.removeChild(backButton);
     };
@@ -77,7 +97,6 @@ const Signup: React.FC = () => {
 
   return (
     <div className="min-h-screen bg-[#0f1117] relative">
-      {/* Main Content */}
       <div className="flex flex-col items-center justify-center min-h-screen p-4">
         <div className="w-full max-w-md">
           <h1 className="text-4xl font-bold text-white text-center mb-8">Sign Up</h1>
@@ -126,8 +145,8 @@ const Signup: React.FC = () => {
               <label className="block text-gray-400 mb-2">Confirm Password</label>
               <input
                 type="password"
-                name="confirmPassword"
-                value={formData.confirmPassword}
+                name="passwordConfirm" // Ensure this is correctly named
+                value={formData.passwordConfirm}
                 onChange={handleChange}
                 placeholder="Confirm your password"
                 className="w-full px-4 py-3 rounded-lg bg-[#1c1f26] border border-gray-700 text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent"
@@ -170,4 +189,4 @@ const Signup: React.FC = () => {
   );
 };
 
-export default Signup; 
+export default Signup;

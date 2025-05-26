@@ -115,3 +115,86 @@
 {"level":"info","message":"Connected to MongoDB","timestamp":"2025-05-18T10:20:53.943Z"}
 {"level":"info","message":"Server running on port 5000","timestamp":"2025-05-18T10:48:50.435Z"}
 {"level":"info","message":"Connected to MongoDB","timestamp":"2025-05-18T10:48:52.588Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-05-18T14:42:51.638Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-05-18T14:42:52.210Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-05-18T15:30:55.241Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-05-18T15:30:57.311Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-05-18T15:58:32.741Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-05-18T15:58:34.088Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-05-18T16:06:18.390Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-05-18T16:06:20.560Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-05-18T17:17:33.869Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-05-18T17:17:34.365Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-05-19T06:09:55.602Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-05-19T06:09:57.227Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-05-19T08:02:43.968Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-05-19T08:02:44.963Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-05-19T10:33:21.480Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-05-19T10:33:22.786Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-05-19T10:36:05.407Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-05-19T10:36:07.329Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-05-19T10:36:17.076Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-05-19T10:36:18.231Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-05-19T10:36:30.622Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-05-19T10:36:31.593Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-05-19T10:40:30.587Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-05-19T10:40:31.683Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-05-19T10:44:52.103Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-05-19T10:44:52.842Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-05-19T10:49:37.629Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-05-19T10:49:38.851Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-05-19T10:50:22.516Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-05-19T10:50:23.971Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-05-19T10:52:16.283Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-05-19T10:52:17.896Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-05-19T10:55:17.562Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-05-19T10:55:19.224Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-05-19T11:02:21.726Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-05-19T11:02:22.505Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-05-19T11:13:04.009Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-05-19T11:13:05.096Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-05-19T11:29:03.535Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-05-19T11:29:04.492Z"}
+{"level":"error","message":"TypeError: Cannot read properties of undefined (reading 'jwt')\n    at D:\\kalvium\\S72_ShivamSingh_Capstone_InventoryManager\\backend\\middleware\\auth.js:16:26\n    at D:\\kalvium\\S72_ShivamSingh_Capstone_InventoryManager\\backend\\utils\\catchAsync.js:3:5\n    at Layer.handle [as handle_request] (D:\\kalvium\\S72_ShivamSingh_Capstone_InventoryManager\\backend\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (D:\\kalvium\\S72_ShivamSingh_Capstone_InventoryManager\\backend\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at D:\\kalvium\\S72_ShivamSingh_Capstone_InventoryManager\\backend\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (D:\\kalvium\\S72_ShivamSingh_Capstone_InventoryManager\\backend\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (D:\\kalvium\\S72_ShivamSingh_Capstone_InventoryManager\\backend\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at D:\\kalvium\\S72_ShivamSingh_Capstone_InventoryManager\\backend\\routes\\auth.js:18:3\n    at Layer.handle [as handle_request] (D:\\kalvium\\S72_ShivamSingh_Capstone_InventoryManager\\backend\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (D:\\kalvium\\S72_ShivamSingh_Capstone_InventoryManager\\backend\\node_modules\\express\\lib\\router\\index.js:328:13)","timestamp":"2025-05-19T11:30:46.851Z"}
+{"level":"error","message":"TypeError: Cannot read properties of undefined (reading 'jwt')\n    at D:\\kalvium\\S72_ShivamSingh_Capstone_InventoryManager\\backend\\middleware\\auth.js:16:26\n    at D:\\kalvium\\S72_ShivamSingh_Capstone_InventoryManager\\backend\\utils\\catchAsync.js:3:5\n    at Layer.handle [as handle_request] (D:\\kalvium\\S72_ShivamSingh_Capstone_InventoryManager\\backend\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (D:\\kalvium\\S72_ShivamSingh_Capstone_InventoryManager\\backend\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at D:\\kalvium\\S72_ShivamSingh_Capstone_InventoryManager\\backend\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (D:\\kalvium\\S72_ShivamSingh_Capstone_InventoryManager\\backend\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (D:\\kalvium\\S72_ShivamSingh_Capstone_InventoryManager\\backend\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at D:\\kalvium\\S72_ShivamSingh_Capstone_InventoryManager\\backend\\routes\\auth.js:18:3\n    at Layer.handle [as handle_request] (D:\\kalvium\\S72_ShivamSingh_Capstone_InventoryManager\\backend\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (D:\\kalvium\\S72_ShivamSingh_Capstone_InventoryManager\\backend\\node_modules\\express\\lib\\router\\index.js:328:13)","timestamp":"2025-05-19T11:30:52.096Z"}
+{"level":"error","message":"TypeError: Cannot read properties of undefined (reading 'jwt')\n    at D:\\kalvium\\S72_ShivamSingh_Capstone_InventoryManager\\backend\\middleware\\auth.js:16:26\n    at D:\\kalvium\\S72_ShivamSingh_Capstone_InventoryManager\\backend\\utils\\catchAsync.js:3:5\n    at Layer.handle [as handle_request] (D:\\kalvium\\S72_ShivamSingh_Capstone_InventoryManager\\backend\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (D:\\kalvium\\S72_ShivamSingh_Capstone_InventoryManager\\backend\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at D:\\kalvium\\S72_ShivamSingh_Capstone_InventoryManager\\backend\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (D:\\kalvium\\S72_ShivamSingh_Capstone_InventoryManager\\backend\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (D:\\kalvium\\S72_ShivamSingh_Capstone_InventoryManager\\backend\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at D:\\kalvium\\S72_ShivamSingh_Capstone_InventoryManager\\backend\\routes\\auth.js:18:3\n    at Layer.handle [as handle_request] (D:\\kalvium\\S72_ShivamSingh_Capstone_InventoryManager\\backend\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (D:\\kalvium\\S72_ShivamSingh_Capstone_InventoryManager\\backend\\node_modules\\express\\lib\\router\\index.js:328:13)","timestamp":"2025-05-19T11:30:53.356Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-05-24T12:10:39.821Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-05-24T12:10:40.995Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-05-24T12:32:36.306Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-05-24T12:32:37.348Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-05-24T12:37:29.429Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-05-24T12:37:30.809Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-05-24T12:39:36.128Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-05-24T12:39:37.184Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-05-24T12:40:54.699Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-05-24T12:40:55.657Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-05-24T12:43:40.738Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-05-24T12:43:41.788Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-05-25T14:41:04.572Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-05-25T14:41:05.486Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-05-25T14:46:53.507Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-05-25T14:46:54.739Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-05-25T14:49:25.180Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-05-25T14:49:25.985Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-05-25T14:54:19.261Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-05-25T14:54:20.135Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-05-25T14:54:49.426Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-05-25T14:54:50.407Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-05-25T15:00:20.075Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-05-25T15:00:21.207Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-05-25T15:06:49.039Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-05-25T15:06:49.892Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-05-25T15:13:09.700Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-05-25T15:13:10.956Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-05-25T15:14:59.652Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-05-25T15:15:00.792Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-05-25T15:21:28.480Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-05-25T15:21:29.720Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-05-25T15:28:45.057Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-05-25T15:28:46.036Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-05-25T15:44:15.004Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-05-25T15:44:15.839Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-05-25T15:46:39.185Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-05-25T15:46:40.306Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-05-26T06:08:52.061Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-05-26T06:08:53.009Z"}

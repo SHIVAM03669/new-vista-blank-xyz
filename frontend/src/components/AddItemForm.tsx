@@ -190,6 +190,7 @@ const AddItemForm: React.FC<Props> = ({ onSubmit, onClose, isSubmitting, initial
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     console.log('handleSubmit called');
+    
     if (validateStep(step)) {
       console.log('Validation passed for step', step);
       try {
@@ -221,6 +222,7 @@ const AddItemForm: React.FC<Props> = ({ onSubmit, onClose, isSubmitting, initial
 
         await onSubmit(formDataObj);
         console.log('onSubmit call finished');
+        onClose(); // Close the modal after successful submission
       } catch (error) {
         console.error('Error submitting form:', error);
         toast.error('Failed to submit form');

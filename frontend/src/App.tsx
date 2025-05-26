@@ -27,13 +27,13 @@ const PrivateRoute = ({ children }: { children: React.ReactNode }) => {
   if (!isAuthenticated) {
     return <Navigate to="/login" />;
   }
+
   return children;
 };
 
 function App() {
   const { isDarkMode } = useDarkMode();
 
-  // Apply dark mode class to html element
   React.useEffect(() => {
     if (isDarkMode) {
       document.documentElement.classList.add('dark');
